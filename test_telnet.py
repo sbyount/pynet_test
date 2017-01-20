@@ -3,6 +3,7 @@
 import telnetlib
 import sys
 import socket
+import time
 
 TELNET_PORT = 23
 TELNET_TIMEOUT = 6
