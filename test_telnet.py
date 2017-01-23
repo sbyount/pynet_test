@@ -35,7 +35,7 @@ def main():
     remote_conn = telnet_connect(ip_addr)
     output = login(remote_conn, username, password)
 
-    time.sleep(1)
+    time.sleep(1)  # wait for the command to process
     output = remote_conn.read_very_eager()
 
     # Disable paging and show version
