@@ -1,0 +1,2 @@
+logging buffered 10000
+no logging con
