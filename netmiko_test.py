@@ -16,3 +16,4 @@ pynet_rtr1 = ConnectHandler(**pynet1) # Pass all args from the dictionary
 
 outp = pynet_rtr1.send_command('sh ip int br')
 print outp
+    
